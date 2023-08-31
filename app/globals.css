@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply select-none
+}
+
+body {
+    font-family: Consolas, sans-serif;
+    @apply relative bg-black text-[lime] text-[1.5vmin] h-screen;
+}

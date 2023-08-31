@@ -1,0 +1,7 @@
+.list {
+    @apply text-center
+}
+
+.item {
+    @apply opacity-50 hover:opacity-100 transition-all cursor-pointer hover:underline
+}
